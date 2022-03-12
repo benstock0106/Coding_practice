@@ -5,8 +5,12 @@
 # elif (另外如果)
 
 import random
+start = input('請輸入隨機數字範圍開始值: ')
+end = input('請輸入隨機數字結束值: ')
+start = int(start)
+end = int(end)
 
-r = random.randint(1,10)
+r = random.randint(start,end)
 count = 0
 while True:
     count += 1 #count = count + 1
